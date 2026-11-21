@@ -1,15 +1,15 @@
 class Annorex < Formula
   desc "Annotate the output of a coding agent in Rex and send the notes back."
   homepage "https://github.com/devararishivian/annorex"
-  version "0.2.3"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/devararishivian/annorex/releases/download/v0.2.3/annorex-aarch64-apple-darwin.tar.xz"
-      sha256 "8ff35c3f6843d2391dfe55eedcee64f916a9c23108a507aa7e3dadfdecd3c6e6"
+      url "https://github.com/devararishivian/annorex/releases/download/v0.3.0/annorex-aarch64-apple-darwin.tar.xz"
+      sha256 "7cc3a9d402b2b4e6c058a986e50226f4443410ad41ba4037c46970a18a575752"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/devararishivian/annorex/releases/download/v0.2.3/annorex-x86_64-apple-darwin.tar.xz"
-      sha256 "84bbe3d2f1a6a86fbc83b22851185221087ea8253d54e1f62cff33a6e18ddead"
+      url "https://github.com/devararishivian/annorex/releases/download/v0.3.0/annorex-x86_64-apple-darwin.tar.xz"
+      sha256 "58c2243fa9ee8b507db035e9bae730a6c9a2464558450739659273d2f6468134"
     end
   end
   license "MIT"
